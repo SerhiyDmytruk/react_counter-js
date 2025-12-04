@@ -11,9 +11,7 @@ export const App = () => {
 
   const add100 = () => {
     // write code here
-    setCount(c => {
-      return c + 100;
-    });
+    setCount(prev => prev + 100);
   };
 
   // DON'T change the code below
